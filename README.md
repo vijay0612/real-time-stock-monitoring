@@ -13,7 +13,7 @@ This project streams, processes, and stores real-time stock price data using **A
 
 ---
 
-## Architecture**
+## Architecture
 The project follows this data pipeline:  
 
 1️⃣ Data Producer → Python script generates stock price data.  
