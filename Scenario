@@ -1,0 +1,14 @@
+Scenario:
+
+A financial services company wants to create a Stock Price Monitoring and Alert System to improve decision-making for investors and traders. The system should continuously ingest stock price data, perform real-time transformations and aggregations, and trigger alerts when specific conditions are met (e.g., price changes significantly within a short period). The goal is to build a scalable and efficient data pipeline for real-time analysis and notification.
+Tasks for the Data Engineer
+
+* Stream Setup:
+    ﻿﻿Set up a streaming platform to ingest real-time stock data.
+* ﻿﻿Real-Time Processing:
+    Compute aggregated metrics (max, min, average prices) for each stock.
+
+Detect anomalies based on pre-defined thresholds (e.g., price change >5% in 1 minute).
+
+* ﻿﻿Integration with Downstream Systems:
+    Write processed data to a persistent store (e.g., Amazon S3) from where downstream users like data analysts, data scientists can interact with the data
