@@ -19,5 +19,5 @@ The project follows this data pipeline:
 1️⃣ Data Producer → Python script generates stock price data.  
 2️⃣ Data Collection → AWS Kinesis Data Stream ingests the data.  
 3️⃣ Data Processing → Managed Apache Flink processes real-time data.  
-4️⃣ Transformed Storage → Data is stored in Amazon S3 via Firehose**.  
+4️⃣ Transformed Storage → Data is stored in Amazon S3 via Firehose.  
 
